@@ -1,0 +1,30 @@
+
+Project: Mental Health Survey Clustering Analysis 
+
+The core Python libraries used in this project are only the required ones, seen below and their purpose:
+
+NumPy==1.24.4
+Provides support for numerical operations, especially array and matrix manipulations. It is foundational for preprocessing and mathematical computations in clustering algorithms.
+
+pandas==2.0.3
+Used for data cleaning, transformation, and exploration. It allows efficient handling of structured data in DataFrames, making it easier to manipulate and analyze survey responses.
+
+matplotlib==3.7.1
+A plotting library used to create visualizations such as scatter plots and line charts to better understand clustering results and evaluation metrics.
+
+seaborn==0.12.2
+Built on top of matplotlib, it simplifies the creation of informative and aesthetically pleasing statistical graphics, including distribution plots and heatmaps for qualitative cluster inspection.
+
+scikit-learn==1.2.2
+The primary machine learning library utilized for:
+
+Preprocessing techniques (e.g., scaling and dimensionality reduction via PCA)
+
+Clustering algorithms (KMeans, Agglomerative Clustering, DBSCAN, Birch, Spectral Clustering)
+
+Evaluation metrics (Silhouette Score, Davies-Bouldin Index)
+
+Model selection and tuning procedures
+
+joblib==1.2.0
+Used to efficiently save and load the trained clustering model to disk, ensuring reproducibility and enabling the application of the final model without retraining.
