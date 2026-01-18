@@ -98,6 +98,19 @@ The report includes:
 ## How to Run
 
 ### Option A: Run the notebook
-1. Install dependencies:
+1. Download the repository from GitHub  
+   - Click **Code → Download ZIP**
+   - Extract the ZIP file
+2. Open a terminal/command prompt inside the project folder
+3. Install dependencies:
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt(https://github.com/shivakumarmurarishetti/mental-health-survey-clustering-analysis/blob/main/requirements.txt)
+4. Start Jupyter Notebook:
+    ```bash
+    jupyter notebook
+5. jupyter notebook
+    ```bash
+    MentalHealthSurveyClusteringAnalysis.ipynb(https://github.com/shivakumarmurarishetti/mental-health-survey-clustering-analysis/blob/main/MentalHealthSurveyClusteringAnalysis.ipynb)
+
+
+   
